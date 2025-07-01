@@ -7,7 +7,6 @@ header {
   top: 0px;
 }
 nav {
-  background-color: rgba(0, 0, 0, 0.4);
   padding: 5px 2vw;
   display: flex;
   justify-content: space-between;
@@ -22,7 +21,7 @@ ul {
 }
 /* gradient text for nav bar */
 h1 {
-  background: linear-gradient(50deg, rgb(39, 14, 230), red, rgb(244, 159, 14));
+  background: linear-gradient(50deg, rgb(252, 251, 254),rgb(253, 67, 5));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -34,6 +33,5 @@ ul li a {
   color: rgb(3, 3, 3);
 }
 ul li a:hover {
-  text-decoration: underline;
-  color: rgb(228, 226, 234);
+  color: rgb(255, 255, 255);
 }

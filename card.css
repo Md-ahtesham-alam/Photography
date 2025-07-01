@@ -1,17 +1,17 @@
 body {
-  background: linear-gradient(to right, rgb(76, 76, 77), rgb(222, 222, 237));
+  background-color: rgb(119, 124, 124);
 }
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-@media only screen and (max-width: 455px) {
+@media only screen and (max-width: 470px) {
   body {
     background: linear-gradient(
       to right,
-      rgb(243, 243, 246),
-      rgb(160, 160, 223)
+      rgb(71, 71, 92),
+      rgb(190, 190, 225)
     );
   }
   .container {
@@ -23,11 +23,7 @@ body {
   color: rgb(7, 3, 49);
 }
 .card {
-  background: linear-gradient(
-    to left,
-    rgb(105, 114, 115),
-    rgba(212, 216, 218, 0.875)
-  );
+  background-color: rgb(209, 245, 243);
   width: 340px;
   height: 550px;
   border-radius: 10px;
